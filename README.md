@@ -87,6 +87,51 @@ FinAlgoritmo
 
 **********************************************************************************************************************************************************************************************************
 
+Challenge 1 Tuesday
+Sum of Pairs
+**********************************************************************************************************************************************************************************************************
+
+Funcion total <- sumOfPairs ()
+	
+	Definir total Como Real;
+	
+	Definir suma Como Real;
+	
+	sum = 0;
+	
+	Repetir
+		
+		Escribir "Write a number between 1 and 100"
+		
+		leer num
+		
+		SI  num < 1  | num > 100 Entonces
+			
+			Imprimir 'Invalid number, please follow instructions'
+			
+		SiNo
+			
+			SI num % 2 = 0
+				
+				sum = sum + num;
+				
+			FinSi
+			
+		FinSi
+		
+	Mientras Que num >= 1  & num  <= 100
+	
+	total = sum;
+	
+Fin Funcion
+
+Algoritmo totalSumExercise
+	
+	Imprimir sumOfPairs()
+	
+FinAlgoritmo
+
+**********************************************************************************************************************************************************************************************************
 
 
 

@@ -38,7 +38,7 @@ Fin Funcion
 
 Algoritmo finalConvertion
 	
-	Imprimir timeConverter(40000)
+	Escribir timeConverter(40000)
 	
 FinAlgoritmo
 
@@ -81,7 +81,7 @@ Fin Funcion
 
 Algoritmo testDistance
 	
-	Imprimir compareDistances()
+	Escribir compareDistances()
 	
 FinAlgoritmo
 
@@ -107,7 +107,7 @@ Funcion total <- sumOfPairs ()
 		
 		SI  num < 1  | num > 100 Entonces
 			
-			Imprimir 'Invalid number, please follow instructions'
+			Escribir 'Invalid number, please follow instructions'
 			
 		SiNo
 			
@@ -127,7 +127,7 @@ Fin Funcion
 
 Algoritmo totalSumExercise
 	
-	Imprimir sumOfPairs()
+	Escribir sumOfPairs()
 	
 FinAlgoritmo
 
@@ -193,6 +193,65 @@ Algoritmo exercise
 	Escribir midPoint(-50,50)
 	
 FinAlgoritmo
+**********************************************************************************************************************************************************************************************************
+Challenge 1 Wednesday
+Cashier
+**********************************************************************************************************************************************************************************************************
+Funcion balance <- checkIn ()
+
+	Definir balance Como Real;
+	
+	balance = 1000;
+	
+	Repetir
+		Escribir "select an option:";
+		
+		Escribir "a. to deposit.";
+		
+		Escribir "b. withdraw.";
+		
+		Escribir "c. go out.";
+		
+		leer option
+		
+		Si option = 'a' Entonces
+		
+			balance = balance + deposit()
+			
+		FinSi
+		
+		Si option = 'b' Entonces
+		
+			balance = balance - withdraw()
+			
+		FinSi
+		
+	Mientras Que option = "a" | option = "b"
+	
+Fin Funcion
+
+Funcion value <- deposit()
+
+	Escribir "how much do you want to deposit:";
+	
+	leer value
+	
+FinFuncion
+
+Funcion value <- withdraw()
+
+	Escribir "how much do you want to withdraw:";
+	
+	leer value
+	
+FinFuncion
+
+Algoritmo exercise
+
+	Escribir checkIn()
+	
+FinAlgoritmo
+
 **********************************************************************************************************************************************************************************************************
 
 

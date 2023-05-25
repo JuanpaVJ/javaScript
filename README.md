@@ -346,5 +346,67 @@ for (let i = 0; i < 10; i++){
 output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 **********************************************************************************************************************************************************************************************************
 
+Week 6
+**********************************************************************************************************************************************************************************************************
+
+Tuesday to Thursday:
+
+**********************************************************************************************************************************************************************************************************
+let firstname = 'Lata';
+'Geeta'
+let flower = 'rose';
+let tree = 'maple';
+'Toe'
+'Hardy'
+const hello = () => {
+  return 'Hello world!'
+}
+const a = () => {
+ return 'Hello a!'
+}
+
+const b = () => {
+ return 'Hello b!'
+}
+const greet = () => {
+ return 'Haydo!'
+};
+
+let salutation = greet();
+'How do you do?'
+const echo = (word) => {
+ return word
+}
+
+echo('Greta')
+echo('CO2')
+const greet = (word) => {
+ return 'Hello ' + word + '!';
+}
+
+greet('Ada')
+const length = (word) => {
+ return word.length
+}
+
+length('word')
+const toCase = (word) => {
+ return word.toLowerCase() + '-' + word.toUpperCase();
+}
+
+toCase('Mthatha')
+const shortcut = (word1, word2) => {
+ return word1.charAt(0) + word2.charAt(0)
+}
+
+shortcut('Amnesty', 'International')
+const indexOfIgnoreCase = (word1, word2) => {
+ let word1Lower = word1.toLowerCase();
+ let word2Lower = word2.toLowerCase();
+ return word1Lower.indexOf(word2Lower);
+}
+
+**********************************************************************************************************************************************************************************************************
+
 
 
